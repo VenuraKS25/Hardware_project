@@ -1,0 +1,71 @@
+.user-page {
+    padding: 40px;
+    padding-top: 100px;
+    height: 100vh;
+    margin-bottom: 50px;
+  }
+  
+  .user-page-title {
+    margin-bottom: 50px;
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 5px;
+    color: rgb(33, 31, 31);
+  }
+  .user-page-icons{
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: rgb(175, 44, 64);
+  }
+  .user-places{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .info-box {
+    flex: 0 0 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #d0cb90;
+    padding-top: 20px;
+  }
+  
+  .map-box {
+    flex: 0 0 60%;
+    height: 66vh;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #d0cb90; 
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  .map-image img {
+    width: 100%;
+    height: auto;
+  }
+  .info-content {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  .info-conclude {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgb(28, 144, 8);
+  }

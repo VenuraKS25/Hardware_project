@@ -1,0 +1,25 @@
+.regHome {
+    margin-top: 100px;
+    padding: 30px;
+}
+.pcustom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px gold;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 40px;
+}
+
+.pcard-icon {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.pcard-container {
+    justify-content: center;
+    padding-top: 100px;
+}

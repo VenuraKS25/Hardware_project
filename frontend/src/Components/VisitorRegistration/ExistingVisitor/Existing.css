@@ -1,0 +1,141 @@
+.existing-visitor {
+    height: 80vh;
+    margin-top: 180px;
+}
+.switch-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.existingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px; 
+    background: #fff;
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px #d0cb90;
+}
+
+.text {
+    text-align: center;
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.evheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.evinputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.evinput {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    background: #eaeaea;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.evinput img {
+    margin: 0px 30px;
+}
+
+.evinput input,
+.evinput select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px auto;
+}
+.existing-visitor {
+    position: relative;
+}
+
+.go-back-container {
+    padding-left: 40px;
+}
+.newVisitorBtn {
+    background: #f3e25f;
+    color: #212121;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 130px;
+    font-weight: 900;
+
+  }
+.newVisitorBtn:hover {
+    background-color: rgb(131, 99, 187);
+    color: #fff;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-color: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #7e57c2;
+    border-color: #7e57c2;
+}
+
+.text-danger {
+    color: red;
+}
+
+.alert-success {
+    text-align: center;
+    margin-top: 20px;
+}
+label {
+    font-weight: bold;
+}

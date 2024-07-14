@@ -1,0 +1,80 @@
+.adminPanelContainer {
+    width: 100%;
+    background: #2b3361;
+    color: #fff;
+    padding: 10px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .adminPanelLogo {
+    width: 80px;
+    margin: 5px;
+  }
+  
+  .navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center nav items */
+  }
+  
+  .nav-item .nav-link {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s, border-bottom-width 0.3s; 
+    border-bottom: 2px solid transparent; 
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #c987ef; 
+  }
+  
+  .nav-item .nav-link.active {
+    color: #ffd700;
+    border-bottom-color: #ffd700; 
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .userDetails {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .adminPanelBtn {
+    background: #fff;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-weight: bolder;
+    margin-left: 15px;
+  }
+  
+  .adminPanelBtn:hover {
+    background-color: #cf3f3f;
+    color: #fff;
+  }
+  

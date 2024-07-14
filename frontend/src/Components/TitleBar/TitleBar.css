@@ -1,0 +1,59 @@
+nav {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 0 10px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are vertically centered */
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+nav ul {
+    display: flex; /* Make sure ul behaves as flex container */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.title-bar-btn {
+    background: rgb(255, 255, 255);
+    border-color: limegreen;
+    color: #212121;
+    font-size: large;
+    font-weight: 700;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 15px;
+    outline: 0;
+    font-weight: bolder;
+}
+
+.title-bar-btn:hover {
+    background-color: #8837aa;
+    text-shadow: gold;
+    color: #fff;
+}
+
+.title-bar-btn-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push the button to the left */
+}
